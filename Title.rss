@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Title</title>
+		<description>This</description>
+		<link>is<link>
+		<atom:link href="is/Title.rss" rel="self" type="application/rss+xml" />
+		<pubDate>9 10 2014 20:34:27 </pubDate>
+		<lastBuildDate>9 10 2014 20:34:27 </lastBuildDate>
+		<item>
+			<title> AddItem.pl </title>
+			<description> AddItem.pl </description>
+			<link>http://offsite.obscuritus.ca/Arcology/AddItem.pl</link>
+			<guid>http://offsite.obscuritus.ca/Arcology/AddItem.pl</guid>
+			<enclosure url="http://offsite.obscuritus.ca/Arcology/AddItem.pl" length="713" type="audio/mpeg" />
+		</item>
+		<item>
+			<title> BuildCast.pl </title>
+			<description> BuildCast.pl </description>
+			<link>http://offsite.obscuritus.ca/Arcology/BuildCast.pl</link>
+			<guid>http://offsite.obscuritus.ca/Arcology/BuildCast.pl</guid>
+			<enclosure url="http://offsite.obscuritus.ca/Arcology/BuildCast.pl" length="882" type="audio/mpeg" />
+		</item>
+		<item>
+			<title> FormCast.sh </title>
+			<description> FormCast.sh </description>
+			<link>http://offsite.obscuritus.ca/Arcology/FormCast.sh</link>
+			<guid>http://offsite.obscuritus.ca/Arcology/FormCast.sh</guid>
+			<enclosure url="http://offsite.obscuritus.ca/Arcology/FormCast.sh" length="61" type="audio/mpeg" />
+		</item>
+		<item>
+			<title> README </title>
+			<description> README </description>
+			<link>http://offsite.obscuritus.ca/Arcology/README</link>
+			<guid>http://offsite.obscuritus.ca/Arcology/README</guid>
+			<enclosure url="http://offsite.obscuritus.ca/Arcology/README" length="266" type="audio/mpeg" />
+		</item>
+		<item>
+			<title> Title.rss </title>
+			<description> Title.rss </description>
+			<link>http://offsite.obscuritus.ca/Arcology/Title.rss</link>
+			<guid>http://offsite.obscuritus.ca/Arcology/Title.rss</guid>
+			<enclosure url="http://offsite.obscuritus.ca/Arcology/Title.rss" length="1860" type="audio/mpeg" />
+		</item>
+	</channel>
+</rss>

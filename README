@@ -1,0 +1,2 @@
+This project exists to turn a set of files, typically mp3s, into a podcast. For this, the files will need to be correctly sorted or sortable. Typically, it should be run with:
+Podcast\ Create.pl `ls /path/to/directory/*mp3|tr '\n' ' '` within the desired directory.
