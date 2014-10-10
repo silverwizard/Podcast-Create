@@ -11,7 +11,7 @@ print $fh "\t<channel>\n";
 print $fh "\t\t<title>$ARGV[0]</title>\n";
 print $fh "\t\t<description>$ARGV[1]</description>\n";
 print $fh "\t\t<link>http://$ARGV[2]</link>\n";
-print $fh "\t\t<atom:link href=\"http://$ARGV[2]/$ARGV[0].rss\" rel=\"self\" type=\"application/rss+xml\" />\n";
+print $fh "\t\t<atom:link href=\"http://$ARGV[2]$ARGV[0].rss\" rel=\"self\" type=\"application/rss+xml\" />\n";
 my $todaydate =  strftime("%a, %d %b %Y %H:%M:%S %z", localtime(time()));
 print $fh "\t\t<pubDate>$todaydate</pubDate>\n";
 print $fh "\t\t<lastBuildDate>$todaydate</lastBuildDate>\n";
