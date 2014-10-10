@@ -1,2 +1,6 @@
 This project exists to turn a set of files, typically mp3s, into a podcast. For this, the files will need to be correctly sorted or sortable. Typically, it should be run with:
-Podcast\ Create.pl `ls /path/to/directory/*mp3|tr '\n' ' '` within the desired directory.
+FormCast.sh Title Description URL
+
+The Title must be a one-word description of the feed. This feed will be named "Title.rss". The Description, which can currently be only one word [FIXME] and should be a fix on the title. The URL is the URL of the feed. Items in the feed must be in the form: http://[URL]/[item]
+
+This program must be run from within a folder full of items you want to attach to your podcast. This program currently leaves it up to the user to order these items. It will add every file in the folder to the feed, and build the RSS feed within that list. This folder must be accessible from the link.
